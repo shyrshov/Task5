@@ -6,10 +6,10 @@ class MyClass {
     int dynamicField;
 
     static void change(int value) {
-        staticField = staticField + 10;
+        staticField = staticField + value;
     }
 
     void anotherChange(int value) {
-        dynamicField = dynamicField + 20;
+        dynamicField = dynamicField + value;
     }
 }
